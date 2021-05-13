@@ -86,7 +86,7 @@ public class Language extends Calculator {
                     System.out.println("Введіть число X та Y, щоб отримати їхній добуток...");
                     System.out.println("X = " + (x = console.nextDouble()));
                     System.out.println("Y = " + (y = console.nextDouble()));
-                    Functions.addition(x, y);
+                    Functions.multiplication(x, y);
                     isCalculatorUsing = false;
                     break;
                 case "-":
@@ -215,7 +215,7 @@ public class Language extends Calculator {
                     System.out.println("Enter X and Y to calculate the result of their multiplication...");
                     System.out.println("X = " + (x = console.nextDouble()));
                     System.out.println("Y = " + (y = console.nextDouble()));
-                    Functions.addition(x, y);
+                    Functions.multiplication(x, y);
                     isCalculatorUsing = false;
                     break;
                 case "-":
