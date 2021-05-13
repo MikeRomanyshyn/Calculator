@@ -31,10 +31,4 @@ public class Calculator {
             }
         }
     }
-
-
-    private static void calculatorLangEn() {
-        System.out.println("----- CALCULATOR -----");
-        System.out.println("-- English version --");
-    }
 }
